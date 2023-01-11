@@ -1,0 +1,55 @@
+#btnbar{
+    padding:30px;
+}
+#addressBtn{
+    box-sizing: border-box;
+    background-color: #ccddf1;
+    font-weight:bold;
+    color:gray;
+}
+.btn, .btn:hover {
+    color: white;
+}
+#collapseBtn{
+    background-color: #3269a9;
+}
+body{
+    background-color:#ccddf1;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:stretch;
+}
+#ShowCard{
+    width: 30%;
+    margin-right: calc(10% / 6);
+    margin-left: calc(10% / 6);
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 600px){
+    .container-fluid{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items:stretch;
+    }
+    #cards{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items:stretch;
+    }
+    #ShowCard{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}
+
